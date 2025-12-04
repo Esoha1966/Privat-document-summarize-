@@ -8,6 +8,8 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 import wget
 import os
+from dotenv import load_dotenv
+load_dotenv()  # ← automatically loads the key
 
 # Suppress warnings
 import warnings
