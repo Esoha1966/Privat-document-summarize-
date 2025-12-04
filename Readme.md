@@ -29,6 +29,7 @@ Install libraries from `requirements.txt` with command
 ```bash
 pip install -r requirements.txt
 ```
+Below is what will be installed
 ```txt
 ibm-watsonx-ai==0.2.6
 langchain==0.1.16
@@ -41,10 +42,6 @@ wget==3.2
 torch==2.3.1
 ```
 
-Then install:
-```bash
-pip install -r requirements.txt
-```
 
 ### Option 2: Manual Installation
 ```bash
