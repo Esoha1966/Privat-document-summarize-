@@ -25,7 +25,10 @@ You need to obtain:
 ## Installation
 
 ### Option 1: Using requirements.txt
-Create a `requirements.txt` file with:
+Install libraries from `requirements.txt` with command 
+```bash
+pip install -r requirements.txt
+```
 ```txt
 ibm-watsonx-ai==0.2.6
 langchain==0.1.16
